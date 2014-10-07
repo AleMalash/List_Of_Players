@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="view_attrs">
+        
+        <attr name="res_icon" format="integer"/>
+        <attr name="res_name" format="integer"></attr>
+        <attr name="res_button1" format="integer"></attr>
+        <attr name="res_button2" format="integer"></attr>
+        <attr name="res_button3" format="integer"></attr>
+        <attr name="res_info" format="integer"></attr>
+        
+    </declare-styleable>
+    
+</resources>

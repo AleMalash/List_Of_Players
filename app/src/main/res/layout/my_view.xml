@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    >
+
+        <ImageView
+            android:id="@+id/view_image"
+            android:layout_width="@dimen/small_icon"
+            android:layout_height="@dimen/small_icon"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:background="@drawable/ic_launcher"
+        />
+        
+        <TextView
+            android:id="@+id/view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_toRightOf="@id/view_image"
+            android:text="Name is here"
+            android:textSize="@dimen/normal"
+        />
+
+        <LinearLayout
+            android:id="@+id/view_buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_image"
+            android:layout_marginTop="@dimen/small_margin"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+        >    
+            
+            <ImageButton
+                android:id="@+id/view_button1"
+                android:layout_width="@dimen/button"
+                android:layout_height="@dimen/button"
+                android:background="@android:drawable/ic_media_play"
+            />
+
+            <ImageButton
+                android:id="@+id/view_button2"
+                android:layout_width="@dimen/button"
+                android:layout_height="@dimen/button"
+                android:background="@android:drawable/ic_menu_call"
+            />
+
+            <ImageButton
+                android:id="@+id/view_button3"
+                android:layout_width="@dimen/button"
+                android:layout_height="@dimen/button"
+                android:background="@android:drawable/ic_menu_search"
+            />
+            
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/view_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_margin"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_below="@id/view_buttons"
+            android:text="Information is here"
+            android:textSize="@dimen/small"
+        />
+
+    </RelativeLayout>
+
+</merge>
